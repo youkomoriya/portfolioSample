@@ -2,24 +2,24 @@
 *画面のスタイルシート
 */
 
-body{
+body {
     font-family: "Noto Sans JP","sans-serif";
     margin: 0;
     min-width: 1076px;
 }
 
-.color-green{
+.color-green {
     color: #00abae;
 }
 
-.sub-title{
+.sub-title {
     font-size: 32px;
 }
 
 /*
 *[header]のスタイルシート
 */
-.block-header{
+.block-header {
     margin:10px 0;
     padding: 0 20px 10px;
     box-shadow: 0 10px 10px -5px rgba(204,204,204,0.3);
@@ -36,7 +36,7 @@ body{
 *[main]のスタイルシート
 */
 
-.block-main{
+.block-main {
     text-align:center;
     margin: 100px 0;
 }
@@ -45,7 +45,7 @@ body{
 *[profile]のスタイルシート
 */
 
-.item-list{
+.item-list {
     width: 100%;
     max-width: 348px;
     margin: 0 auto;
@@ -79,7 +79,7 @@ body{
     margin-right: 22px;
 }
 
-.icon-list li:last-child{
+.icon-list li:last-child {
     margin-right: 0;
 }
 
@@ -87,11 +87,11 @@ body{
 *[works]のスタイルシート
 */
 
-.box-works{
+.box-works {
     margin: 80px 0 0;
 }
 
-.works-list{
+.works-list {
     list-style: none;
     width: 100%;
     max-width: 1076px;
@@ -109,32 +109,32 @@ body{
     margin-right: 15px;
 }
 
-.works-list li:last-child{
+.works-list li:last-child {
     margin-right: 0;
 }
 
-.works-list li img{
+.works-list li img {
     width: 100%;
     border: 1px solid #CCC;
 }
 
-.works-list li h3{
+.works-list li h3 {
     font-size: 24px;
     margin: 10px 0;
 }
 
-.works-list li span{
+.works-list li span {
     font-size: 18px;
 }
 
-.works-list li .link{
+.works-list li .link {
     display: flex;
     justify-content: left;
     align-items: left;
     margin-top: 15px;
 }
 
-.works-list li .link a{
+.works-list li .link a {
     background-color: rgb(226,226,226);
     padding: 5px 20px;
     margin-right: 10px;
@@ -147,7 +147,7 @@ body{
 *[footer]のスタイルシート
 */
 
-.block-footer p{
+.block-footer p {
     clear: both;
     text-align: center;
     font-size: 15px;
@@ -168,15 +168,15 @@ body{
 */
 
 @media screen and (max-width: 480px) {
-    body {
+    body{
         min-width: 100%;
-    }
-}
+    } 
+
 
 /*
 *[header]のスタイルシート
 */
-.block-header{
+.block-header {
     padding: 0 10px 10px;
     box-shadow: 0 8px 18px -5px rgba(204,204,204,0.3);
 }
@@ -189,7 +189,7 @@ body{
 *[main]のスタイルシート
 */
 
-.block-main{
+.block-main {
     margin: 50px 0;
 }
 
@@ -201,7 +201,7 @@ body{
     padding: 0 10px;
 }
 
-.item-list{
+.item-list {
     max-width: 100%;
 }
 
@@ -221,12 +221,12 @@ body{
 *[works]のスタイルシート
 */
 
-.box-works{
+.box-works {
     margin: 60px 0 0;
     padding: 0 10px;
 }
 
-.works-list{
+.works-list {
     max-width: 100%;
 }
 
@@ -237,11 +237,13 @@ body{
     margin-bottom: 30px;
 }
 
-.works-list h3{
+.works-list h3 {
     font-size: 20px;
     margin: 5px 0;
 }
 
-.works-list span{
+.works-list span {
     font-size: 14px;
+}
+
 }
